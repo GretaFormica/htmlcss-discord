@@ -8,7 +8,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font: inherit;
+	/* font: inherit; */
 }
 
 body {
@@ -95,10 +95,24 @@ a{
 	min-height: 400px;
 	width: 50%;
 
+	padding: 10px;
+	text-align: center;
+	color: white;
+	line-height: 35px;
+
 	/* debug */
-	background-color: #ee82ee;
-	border: 2px dashed black;
+	/* background-color: #ee82ee;
+	border: 2px dashed black; */
 }
+
+h1{
+	margin: 10px;
+}
+
+.content>a{
+	margin: 50px;
+}
+
 
 /* MAIN & SECTIONS */
 
