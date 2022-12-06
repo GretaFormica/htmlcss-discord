@@ -22,6 +22,11 @@ video {
 	max-width: 100%;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
 /* Utils */
 .container {
 	max-width: 1200px;
@@ -45,7 +50,7 @@ video {
 	padding: 10px 0;
 
 	/* debug */
-	background-color: lightblue;
+	background-color: #2a61ea;
 }
 
 .header-nav {
@@ -59,13 +64,14 @@ video {
 	padding: 5px 10px;
 
 	/* debug */
-	background-color: goldenrod;
-	border: 2px dashed black;
+	/* background-color: goldenrod; */
+	/* border: 2px dashed black; */
 }
 
 .header-links {
 	flex-grow: 1;
 	text-align: center;
+	color: white;
 }
 
 .header-login {
@@ -81,7 +87,8 @@ video {
 
 
 	/* debug */
-	background-color: darkblue;
+	background-image: url('./img/jumbo.png');
+	background-size: cover;
 }
 
 .jumbotron .content {
@@ -111,7 +118,8 @@ main>section>.container {
 }
 
 .bg-gray {
-	background-color: lightgray;
+	background-color: white;
+	background-image: url('./img/wave.svg');
 }
 
 .main-col {
