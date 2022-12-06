@@ -46,6 +46,15 @@ li{
 .button.white {
     color: black;
     background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.button.black{
+	color: white;
+    background-color: black;
+	padding: 10px;
+	border-radius: 20px;
 }
 
 
@@ -82,6 +91,7 @@ li{
 	flex-grow: 1;
 	text-align: center;
 	color: white;
+	
 }
 
 .header-login {
@@ -177,6 +187,12 @@ main>section>.container {
 	border: 2px dashed black; */
 }
 
+h3{
+	font-size: larger;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
 /* FOOTER */
 
 .footer-main {
@@ -257,7 +273,6 @@ h2{
 
 .footer-bottom>* {
 	padding: 5px 10px;
-	color: white;
 
 
 	/* debug */
