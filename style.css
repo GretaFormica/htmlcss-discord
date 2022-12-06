@@ -33,7 +33,7 @@ li{
 }
 /* Utils */
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -92,6 +92,10 @@ li{
 	text-align: center;
 	color: white;
 	
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+	
 }
 
 .header-login {
@@ -125,6 +129,10 @@ li{
 	border: 2px dashed black; */
 }
 
+.content>p{
+	margin-bottom: 60px;
+}
+
 h1{
 	margin: 10px;
 }
@@ -149,12 +157,12 @@ main>section>.container {
 
 .bg-white {
 	background-color: white;
-	/* background-image: url('./img/wave.svg');
-	background-repeat: no-repeat bottom; */
 }
 
 .bg-gray {
-	background-color: lightgrey;
+	background-color: white;
+	/* background-image: url('./img/wave.svg'); */
+ 
 }
 
 .main-col {
