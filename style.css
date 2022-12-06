@@ -9,6 +9,7 @@
 	margin: 0;
 	padding: 0;
 	/* font: inherit; */
+	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -27,6 +28,9 @@ a{
 	color: white;
 }
 
+li{
+	list-style-type: none;
+}
 /* Utils */
 .container {
 	max-width: 1200px;
@@ -38,6 +42,12 @@ a{
 	clear: both;
 	display: table;
 }
+
+.button.white {
+    color: black;
+    background-color: white;
+}
+
 
 /* Style */
 
@@ -157,16 +167,20 @@ main>section>.container {
 .hilighted-content {
 	flex-grow: 1;
 
+	padding: 10px;
+	text-align: center;
+	line-height: 35px;
+
 	/* debug */
 	min-height: 800px;
-	background-color: forestgreen;
-	border: 2px dashed black;
+	/* background-color: forestgreen;
+	border: 2px dashed black; */
 }
 
 /* FOOTER */
 
 .footer-main {
-	padding-top: 10px;
+	padding-top: 50px;
 
 
 	/* debug */
@@ -177,7 +191,7 @@ main>section>.container {
 	display: flex;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid purple;
+	border-bottom: 2px solid white;
 
 	/* debug */
 	min-height: 500px;
@@ -185,10 +199,27 @@ main>section>.container {
 
 .footer-main-col {
 	width: calc(100% / 3);
-
+	padding: 30px;
+	color: white;
+	
 	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
+	/* background-color: #f08080;
+	border: 2px dashed black; */
+}
+
+h2{
+	color: #929FDD;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.flag-ita{
+	max-width: 30px;
+}
+
+.social{
+	margin-top: 30px;
+	font-size: larger;
 }
 
 .footer-side-col {
@@ -196,16 +227,22 @@ main>section>.container {
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
+	/* background-color: #20b2aa;
+	border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
+	padding: 30px;
+	line-height: 40px;
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+	/* background-color: #20b2aa;
+	border: 2px dashed white; */
+}
+
+.footer-col>p{
+	color: #929FDD;
 }
 
 .footer-bottom {
@@ -215,14 +252,17 @@ main>section>.container {
 	min-height: 80px;
 
 	/* debug */
-	background-color: #7fffd4;
+	/* background-color: #7fffd4; */
 }
 
 .footer-bottom>* {
 	padding: 5px 10px;
+	color: white;
 
 
 	/* debug */
-	background-color: #ffb6c1;
-	border: 2px dashed black;
+	/* background-color: #ffb6c1;
+	/* border: 2px dashed black */
+
 }
+	
