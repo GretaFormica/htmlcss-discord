@@ -129,8 +129,8 @@ main>section>.container {
 
 .bg-white {
 	background-color: white;
-	background-image: url('./img/wave.svg');
-	background-repeat: no-repeat bottom;
+	/* background-image: url('./img/wave.svg');
+	background-repeat: no-repeat bottom; */
 }
 
 .bg-gray {
