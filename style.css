@@ -129,27 +129,29 @@ main>section>.container {
 
 .bg-white {
 	background-color: white;
+	background-image: url('./img/wave.svg');
+	background-repeat: no-repeat bottom;
 }
 
 .bg-gray {
-	background-color: white;
-	background-image: url('./img/wave.svg');
+	background-color: lightgrey;
 }
 
 .main-col {
-	flex-grow: 2;
+	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	/* background-color: cornflowerblue;
+	border: 2px dashed black; */
 }
 
 .side-col {
-	flex-grow: 1;
+	width: calc(100% / 3);
+	padding: 40px;
 
 	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	/* background-color: pink;
+	border: 2px dashed black; */
 }
 
 .hilighted-content {
